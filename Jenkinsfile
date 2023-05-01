@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hey there!'
                 sh "chmod +x -R ./jenkins"
-                sh "./jenkins/script/scripted_pipeline.sh"
+                sh "scripted_pipeline.sh"
             }
         }
     }
